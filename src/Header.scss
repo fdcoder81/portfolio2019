@@ -1,0 +1,44 @@
+#header {
+  nav {
+    background: rgba(lighten(#444, 2), 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  p {
+    font-size: 2rem;
+    margin-left: 4rem;
+  }
+
+  ul {
+    display: flex;
+    margin-right: 8rem;
+    list-style: none;
+
+    li {
+      font-size: 1.3rem;
+      padding: 0 1.5rem;
+      text-transform: uppercase;
+      transition: transform 0.8s;
+      backface-visibility: hidden;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    a:hover {
+      color: #ffd700;
+    }
+
+    .active {
+      a {
+        color: #ffd700;
+      }
+      transform: scale(1.2);
+    }
+  }
+}

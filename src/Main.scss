@@ -1,0 +1,79 @@
+#main {
+  padding: 4rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#info {
+  padding-left: 8rem;
+  h1,
+  h2 {
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  span {
+    color: #ffd700;
+  }
+
+  h2 {
+    padding: 0 1rem;
+  }
+
+  h2:nth-child(3) {
+    padding: 0.8rem 2rem 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 10rem;
+    padding: 1rem 0 2rem 3.5rem;
+
+    li {
+      color: #fffacd;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+
+  .icons {
+    padding: 0 1rem;
+  }
+
+  a {
+    padding-right: 0.8rem;
+
+    &:hover {
+      color: #ffd700;
+      transition: all 0.5s ease-out;
+    }
+  }
+}
+
+#about-me {
+  max-width: 40rem;
+  text-align: center;
+
+  img {
+    width: 50%;
+    border-radius: 70%;
+  }
+
+  h2,
+  h3 {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
