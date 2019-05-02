@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: url("./background.jpg");
   background-attachment: fixed;
@@ -21,7 +26,6 @@ body {
   }
 
   color: #fff;
-  height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }

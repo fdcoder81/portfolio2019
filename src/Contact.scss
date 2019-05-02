@@ -1,0 +1,65 @@
+#contact {
+  text-align: center;
+  margin: 8rem auto;
+  width: 20rem;
+
+  img {
+    width: 15rem;
+    border-radius: 70%;
+  }
+
+  .profile {
+    position: relative;
+
+    .available {
+      position: absolute;
+      top: 78%;
+      left: 50%;
+      width: 14rem;
+      transform: translateX(-50%);
+      padding: 0.5rem;
+      border: none;
+      border-radius: 5rem;
+      background: #32cd32;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 400;
+
+      i {
+        padding-right: 0.5rem;
+      }
+    }
+  }
+
+  h1 {
+    margin: 1rem 0 1rem;
+    text-transform: uppercase;
+  }
+
+  .icons-box {
+    text-align: left;
+    width: 30rem;
+
+    .icon {
+      margin: 2rem 0 0;
+      padding-left: 2rem;
+      font-size: 1.2rem;
+      display: flex;
+      align-content: center;
+
+      a {
+        display: flex;
+        align-items: center;
+
+        &:hover {
+          color: #ffd700;
+          transition: all 0.5s ease-out;
+        }
+      }
+
+      span {
+        padding-left: 0.4rem;
+      }
+    }
+  }
+}
