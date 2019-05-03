@@ -1,14 +1,32 @@
 #header {
-  nav {
-    background: rgba(lighten(#444, 2), 0.5);
+  background: rgba(lighten(#444, 2), 0.5);
+  display: block;
+  min-width: 100%;
 
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem;
   }
 
-  p {
+  .menu-btn {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    top: 2.5rem;
+    right: 2rem;
+
+    .btn-line {
+      background: #fff;
+      width: 28px;
+      height: 3px;
+      margin: 0 0 5px;
+    }
+  }
+
+  .nav-title {
     font-size: 2rem;
     margin-left: 4rem;
   }
@@ -39,6 +57,38 @@
         color: #ffd700;
       }
       transform: scale(1.2);
+    }
+  }
+}
+
+@media all and (max-width: 736px) {
+  #header {
+    ul {
+      display: none;
+    }
+
+    nav {
+      display: block;
+    }
+
+    .menu-btn {
+      display: block;
+    }
+
+    .nav-title {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #header {
+    ul {
+      margin-right: 0;
+    }
+
+    .nav-title {
+      margin-left: 0;
     }
   }
 }

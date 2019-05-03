@@ -5,11 +5,11 @@ const Main = () => {
   return (
     <div id="main">
       <div id="info">
-        <h1>
+        <h1 className="primary-heading">
           Carlo <span class="text-secondary">Anselmi</span>
         </h1>
-        <h2>Front End Developer - React.js</h2>
-        <h2>My Skills :</h2>
+        <h2 className="secondary-heading">Front End Developer - React.js</h2>
+        <h2 className="skills-heading">My Skills :</h2>
         <ul>
           <li>HTML5</li>
           <li>CSS3</li>
