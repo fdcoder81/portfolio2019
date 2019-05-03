@@ -6,24 +6,31 @@ class Header extends React.Component {
   state = { toggle: false };
 
   BtnClick = () => {
-    this.setState({ toggle: true });
-    console.log(this.state);
+    this.setState(prevState => {
+      return { toggle: !prevState.toggle };
+    });
   };
 
   render() {
+    const isToggle = this.state.toggle;
+    const isActive = "menu-btn isActive";
+    console.log(isToggle);
+
     return (
       <div id="header">
         <nav>
-          <div onClick={this.BtnClick} className="menu-btn">
+          <div
+            onClick={this.BtnClick}
+            className={isToggle ? {isActive} = "menu-btn"}
+          >
             <div className="btn-line" />
             <div className="btn-line" />
             <div className="btn-line" />
           </div>
-          <div className="menu-btn-close">X</div>
           <NavLink to="/">
             <a>
               <p class="nav-title">Carlo Anselmi</p>
-            </a>{" "}
+            </a>
           </NavLink>
           <ul>
             <NavLink to="/" exact activeClassName="active">
