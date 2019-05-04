@@ -13,7 +13,7 @@ class Header extends React.Component {
 
   render() {
     const isToggle = this.state.toggle;
-    const isActive = "menu-btn isActive";
+    const isActive = "isActive";
     console.log(isToggle);
 
     return (
@@ -21,7 +21,7 @@ class Header extends React.Component {
         <nav>
           <div
             onClick={this.BtnClick}
-            className={isToggle ? {isActive} = "menu-btn"}
+            className={`menu-btn ${isToggle ? isActive : ""}`}
           >
             <div className="btn-line" />
             <div className="btn-line" />
