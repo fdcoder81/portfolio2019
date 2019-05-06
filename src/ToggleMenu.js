@@ -6,7 +6,7 @@ class ToggleMenu extends React.Component {
   render() {
     return (
       <div id="toggle-box">
-        <ul>
+        <ul onClick={this.props.BtnClick}>
           <NavLink to="/" exact activeClassName="active">
             <li>About</li>
           </NavLink>

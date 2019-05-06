@@ -12,7 +12,6 @@ function App() {
     <div className="container">
       <BrowserRouter>
         <Header />
-        <ToggleMenu />
         <Route path="/" exact component={Main} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
