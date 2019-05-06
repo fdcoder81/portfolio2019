@@ -17,7 +17,7 @@ const Portfolio = () => {
               </a>
             </div>
             <div>
-              <a href="https://fdcoder81.github.io/weather-app-react/">
+              <a href="https://github.com/fdcoder81/weather-app-react">
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>
@@ -26,49 +26,61 @@ const Portfolio = () => {
           </figcaption>
         </figure>
         <figure className="projects_item">
-          <img src="./images/coming.jpg" />
+          <img src="./images/travel.png" />
           <figcaption>
             <div>
-              <i className="fas fa-eye">
-                <span>Project</span>
-              </i>
+              <a href="https://fdcoder81.github.io/Travel-Booking-website/">
+                <i className="fas fa-eye">
+                  <span>Project</span>
+                </i>
+              </a>
             </div>
             <div>
-              <i className="fab fa-github">
-                <span>GitHub</span>
-              </i>
+              <a href="https://github.com/fdcoder81/Travel-Booking-website">
+                <i className="fab fa-github">
+                  <span>GitHub</span>
+                </i>
+              </a>
             </div>
           </figcaption>
         </figure>
 
         <figure className="projects_item">
-          <img src="./images/coming.jpg" />
+          <img src="./images/trivia.png" />
           <figcaption>
             <div>
-              <i className="fas fa-eye">
-                <span>Project</span>
-              </i>
+              <a href="https://github.com/fdcoder81/trivia-game">
+                <i className="fas fa-eye">
+                  <span>Project</span>
+                </i>
+              </a>
             </div>
             <div>
-              <i className="fab fa-github">
-                <span>GitHub</span>
-              </i>
+              <a href="https://fdcoder81.github.io/trivia-game/">
+                <i className="fab fa-github">
+                  <span>GitHub</span>
+                </i>
+              </a>
             </div>
           </figcaption>
         </figure>
 
         <figure className="projects_item">
-          <img src="./images/coming.jpg" />
+          <img src="./images/portfolio.png" />
           <figcaption>
             <div>
-              <i className="fas fa-eye">
-                <span>Project</span>
-              </i>
+              <a href="https://fdcoder81.github.io/trivia-game/">
+                <i className="fas fa-eye">
+                  <span>Project</span>
+                </i>
+              </a>
             </div>
             <div>
-              <i className="fab fa-github">
-                <span>GitHub</span>
-              </i>
+              <a href="https://fdcoder81.github.io/trivia-game/">
+                <i className="fab fa-github">
+                  <span>GitHub</span>
+                </i>{" "}
+              </a>
             </div>
           </figcaption>
         </figure>

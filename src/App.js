@@ -5,7 +5,6 @@ import Header from "./Header";
 import Main from "./Main";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-import ToggleMenu from "./ToggleMenu";
 
 function App() {
   return (

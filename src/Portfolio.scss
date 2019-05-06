@@ -22,13 +22,8 @@
       justify-content: center;
       background: rgba(lighten(#444, 8), 0.5);
 
-      div {
-        transition: transform 0.5s;
-      }
-
-      div:hover {
+      a:hover {
         color: gold;
-        transform: scale(1.2);
       }
     }
 
