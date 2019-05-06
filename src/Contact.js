@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="profile">
-        <img src="./images/bio.jpg" />
+        <img alt="bio" src="./images/bio.jpg" />
         <button className="available">
           <i class="fas fa-check" />
           <span>Available For Hire</span>
@@ -16,14 +16,22 @@ const Contact = () => {
 
       <div class="icons-box">
         <div className="icon">
-          <a target="_blank" href="https://www.linkedin.com/in/carlo-anselmi/">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/carlo-anselmi/"
+          >
             <i class="fab fa-linkedin fa-2x" />
             <span>LinkedIn : Carlo anselmi</span>
           </a>
         </div>
 
         <div className="icon">
-          <a target="_blank" href="https://github.com/fdcoder81">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/fdcoder81"
+          >
             <i class="fab fa-github fa-2x" />
             <span>Github : fdcoder81</span>
           </a>

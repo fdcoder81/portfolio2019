@@ -22,17 +22,25 @@ const Main = () => {
         </ul>
       </div>
       <div id="about-me">
-        <img src="./images/bio.jpg" />
+        <img alt="profile" src="./images/bio.jpg" />
         <h2>About Me</h2>
         <h3>
           I'm a front-end web developer, tech enthusiast and passionate about
           web development.
         </h3>
         <div class="icons">
-          <a target="_blank" href="https://www.linkedin.com/in/carlo-anselmi/">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/carlo-anselmi/"
+          >
             <i class="fab fa-linkedin fa-2x" />
           </a>
-          <a target="_blank" href="https://github.com/fdcoder81">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/fdcoder81"
+          >
             <i class="fab fa-github fa-2x" />
           </a>
           <a href="skype:fdtrader?chat">

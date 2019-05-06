@@ -7,7 +7,7 @@ const Portfolio = () => {
       <h2>My Work</h2>
       <div className="projects">
         <figure>
-          <img src="./images/weather-app.png" />
+          <img alt="project" src="./images/weather-app.png" />
           <figcaption>
             <div>
               <a href="https://fdcoder81.github.io/weather-app-react/">
@@ -26,7 +26,7 @@ const Portfolio = () => {
           </figcaption>
         </figure>
         <figure className="projects_item">
-          <img src="./images/travel.png" />
+          <img alt="project" src="./images/travel.png" />
           <figcaption>
             <div>
               <a href="https://fdcoder81.github.io/Travel-Booking-website/">
@@ -46,7 +46,7 @@ const Portfolio = () => {
         </figure>
 
         <figure className="projects_item">
-          <img src="./images/trivia.png" />
+          <img alt="project" src="./images/trivia.png" />
           <figcaption>
             <div>
               <a href="https://github.com/fdcoder81/trivia-game">
@@ -66,17 +66,17 @@ const Portfolio = () => {
         </figure>
 
         <figure className="projects_item">
-          <img src="./images/portfolio.png" />
+          <img alt="project" src="./images/portfolio.png" />
           <figcaption>
             <div>
-              <a href="https://fdcoder81.github.io/trivia-game/">
+              <a href="https://fdcoder81.github.io/portfolio2019/">
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
               </a>
             </div>
             <div>
-              <a href="https://fdcoder81.github.io/trivia-game/">
+              <a href="https://github.com/fdcoder81/portfolio2019">
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>{" "}

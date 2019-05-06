@@ -29,25 +29,17 @@ class Header extends React.Component {
               <div className="btn-line" />
             </div>
             <NavLink to="/">
-              <a>
-                <p class="nav-title">Carlo Anselmi</p>
-              </a>
+              <p class="nav-title">Carlo Anselmi</p>
             </NavLink>
             <ul>
               <NavLink to="/" exact activeClassName="active">
-                <li>
-                  <a>About me</a>
-                </li>
+                <li>About me</li>
               </NavLink>
               <NavLink to="/portfolio">
-                <li>
-                  <a>My work</a>
-                </li>
+                <li>My work</li>
               </NavLink>
               <NavLink to="/contact">
-                <li>
-                  <a>Contact me</a>
-                </li>
+                <li>Contact me</li>
               </NavLink>
             </ul>
           </nav>
