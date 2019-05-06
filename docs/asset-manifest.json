@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio2019/static/css/main.f9ea4768.chunk.css",
+    "main.js": "/portfolio2019/static/js/main.8f2f418a.chunk.js",
+    "main.js.map": "/portfolio2019/static/js/main.8f2f418a.chunk.js.map",
+    "runtime~main.js": "/portfolio2019/static/js/runtime~main.8abb7632.js",
+    "runtime~main.js.map": "/portfolio2019/static/js/runtime~main.8abb7632.js.map",
+    "static/js/2.0915721b.chunk.js": "/portfolio2019/static/js/2.0915721b.chunk.js",
+    "static/js/2.0915721b.chunk.js.map": "/portfolio2019/static/js/2.0915721b.chunk.js.map",
+    "index.html": "/portfolio2019/index.html",
+    "precache-manifest.0d1244077b7c28de79eef1d198900fbd.js": "/portfolio2019/precache-manifest.0d1244077b7c28de79eef1d198900fbd.js",
+    "service-worker.js": "/portfolio2019/service-worker.js",
+    "static/css/main.f9ea4768.chunk.css.map": "/portfolio2019/static/css/main.f9ea4768.chunk.css.map",
+    "static/media/App.scss": "/portfolio2019/static/media/background.bee36bb7.jpg",
+    "static/media/bio.jpg": "/portfolio2019/static/media/bio.072102c3.jpg",
+    "static/media/weather-app.png": "/portfolio2019/static/media/weather-app.384af94b.png"
+  }
+}
