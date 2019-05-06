@@ -2,6 +2,7 @@
   "name": "portfolio2019-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fdcoder81.github.io/portfolio2019/",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
