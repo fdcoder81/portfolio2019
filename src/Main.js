@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.scss";
+import bioImg from "./images/bio.jpg";
 
 const Main = () => {
   return (
@@ -22,7 +23,7 @@ const Main = () => {
         </ul>
       </div>
       <div id="about-me">
-        <img alt="profile" src="./images/bio.jpg" />
+        <img alt="profile" src={bioImg} />
         <h2>About Me</h2>
         <h3>
           I'm a front-end web developer, tech enthusiast and passionate about

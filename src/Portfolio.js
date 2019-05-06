@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.scss";
+import weatherImg from "./images/weather-app.png";
 
 const Portfolio = () => {
   return (
@@ -7,7 +8,7 @@ const Portfolio = () => {
       <h2>My Work</h2>
       <div className="projects">
         <figure>
-          <img alt="project" src="./images/weather-app.png" />
+          <img alt="project" src={weatherImg} />
           <figcaption>
             <div>
               <a href="https://fdcoder81.github.io/weather-app-react/">
