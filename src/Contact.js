@@ -1,11 +1,12 @@
 import React from "react";
 import "./Contact.scss";
+import bioImg from "./images/bio.jpg";
 
 const Contact = () => {
   return (
     <div id="contact">
       <div className="profile">
-        <img alt="bio" src="./images/bio.jpg" />
+        <img alt="bio" src={bioImg} />
         <button className="available">
           <i class="fas fa-check" />
           <span>Available For Hire</span>

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Portfolio.scss";
 import weatherImg from "./images/weather-app.png";
+import portfolioImg from "./images/portfolio.png";
+import travelImg from "./images/travel.png";
+import triviaImg from "./images/trivia.png";
 
 const Portfolio = () => {
   return (
@@ -27,7 +30,7 @@ const Portfolio = () => {
           </figcaption>
         </figure>
         <figure className="projects_item">
-          <img alt="project" src="./images/travel.png" />
+          <img alt="project" src={travelImg} />
           <figcaption>
             <div>
               <a href="https://fdcoder81.github.io/Travel-Booking-website/">
@@ -47,7 +50,7 @@ const Portfolio = () => {
         </figure>
 
         <figure className="projects_item">
-          <img alt="project" src="./images/trivia.png" />
+          <img alt="project" src={triviaImg} />
           <figcaption>
             <div>
               <a href="https://github.com/fdcoder81/trivia-game">
@@ -67,7 +70,7 @@ const Portfolio = () => {
         </figure>
 
         <figure className="projects_item">
-          <img alt="project" src="./images/portfolio.png" />
+          <img alt="project" src={portfolioImg} />
           <figcaption>
             <div>
               <a href="https://fdcoder81.github.io/portfolio2019/">

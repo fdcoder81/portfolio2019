@@ -9,7 +9,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <div className="container">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <Route path="/" exact component={Main} />
         <Route path="/portfolio" component={Portfolio} />
