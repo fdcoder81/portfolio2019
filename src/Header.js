@@ -29,7 +29,7 @@ class Header extends React.Component {
               <div className="btn-line" />
             </div>
             <NavLink to="/">
-              <p class="nav-title">Carlo Anselmi</p>
+              <p className="nav-title">Carlo Anselmi</p>
             </NavLink>
             <ul>
               <NavLink to="/" exact activeClassName="active">

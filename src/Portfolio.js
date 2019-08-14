@@ -2,8 +2,9 @@ import React from "react";
 import "./Portfolio.scss";
 import weatherImg from "./images/weather-app.png";
 import portfolioImg from "./images/portfolio.png";
-import travelImg from "./images/travel.png";
+import moviesX from "./images/movies-x.png";
 import triviaImg from "./images/trivia.png";
+import udemyImg from "./images/udemy.png";
 
 const Portfolio = () => {
   return (
@@ -14,14 +15,22 @@ const Portfolio = () => {
           <img alt="project" src={weatherImg} />
           <figcaption>
             <div>
-              <a href="https://fdcoder81.github.io/weather-app-react/">
+              <a
+                href="https://fdcoder81.github.io/weather-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
               </a>
             </div>
             <div>
-              <a href="https://github.com/fdcoder81/weather-app-react">
+              <a
+                href="https://github.com/fdcoder81/weather-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>
@@ -30,17 +39,43 @@ const Portfolio = () => {
           </figcaption>
         </figure>
         <figure className="projects_item">
-          <img alt="project" src={travelImg} />
+          <img alt="project" src={moviesX} />
           <figcaption>
             <div>
-              <a href="https://fdcoder81.github.io/Travel-Booking-website/">
+              <a href="https://fdcoder81.github.io/movies-x/" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
               </a>
             </div>
             <div>
-              <a href="https://github.com/fdcoder81/Travel-Booking-website">
+              <a href="https://github.com/fdcoder81/movies-x" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-github">
+                  <span>GitHub</span>
+                </i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure className="projects_item">
+          <img alt="project" src={udemyImg} />
+          <figcaption>
+            <div>
+              <a
+                href="https://fdcoder81.github.io/udemy-clone/"
+                target="_blank" rel="noopener noreferrer"
+              >
+                <i className="fas fa-eye">
+                  <span>Project</span>
+                </i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/fdcoder81/udemy-clone" rel="noopener noreferrer"
+                target="_blank"
+              >
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>
@@ -53,14 +88,17 @@ const Portfolio = () => {
           <img alt="project" src={triviaImg} />
           <figcaption>
             <div>
-              <a href="https://github.com/fdcoder81/trivia-game">
+              <a href="https://fdcoder81.github.io/trivia-game" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
               </a>
             </div>
             <div>
-              <a href="https://fdcoder81.github.io/trivia-game/">
+              <a
+                href="https://github.com/fdcoder81/trivia-game"
+                target="_blank" rel="noopener noreferrer"
+              >
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>
@@ -73,14 +111,20 @@ const Portfolio = () => {
           <img alt="project" src={portfolioImg} />
           <figcaption>
             <div>
-              <a href="https://fdcoder81.github.io/portfolio2019/">
+              <a
+                href="https://fdcoder81.github.io/portfolio2019/"
+                target="_blank" rel="noopener noreferrer"
+              >
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
               </a>
             </div>
             <div>
-              <a href="https://github.com/fdcoder81/portfolio2019">
+              <a
+                href="https://github.com/fdcoder81/portfolio2019"
+                target="_blank" rel="noopener noreferrer"
+              >
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>{" "}
