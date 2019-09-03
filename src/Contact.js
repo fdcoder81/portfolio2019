@@ -39,9 +39,9 @@ const Contact = () => {
         </div>
 
         <div className="icon">
-          <a href="skype:fdtrader?chat">
+          <a href="skype:live:.cid.a672bb53d82bda0d?chat">
             <i class="fab fa-skype fa-2x" />
-            <span>Skype : fdtrader</span>
+            <span>Skype : carloanselmi81@gmail.com</span>
           </a>
         </div>
 

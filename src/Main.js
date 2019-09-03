@@ -44,7 +44,7 @@ const Main = () => {
           >
             <i class="fab fa-github fa-2x" />
           </a>
-          <a href="skype:fdtrader?chat">
+          <a href="skype:live:.cid.a672bb53d82bda0d?chat?chat">
             <i class="fab fa-skype fa-2x" />
           </a>
           <a href="mailto:carloanselmi81@gmail.com">
