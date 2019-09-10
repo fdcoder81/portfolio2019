@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="icon">
           <a href="skype:live:.cid.a672bb53d82bda0d?chat">
             <i class="fab fa-skype fa-2x" />
-            <span>Skype : carloanselmi81@gmail.com</span>
+            <span>Skype : live:.cid.a672bb53d82bda0d</span>
           </a>
         </div>
 
