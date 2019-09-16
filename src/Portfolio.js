@@ -3,7 +3,7 @@ import "./Portfolio.scss";
 import weatherImg from "./images/weather-app.png";
 import portfolioImg from "./images/portfolio.png";
 import moviesX from "./images/movies-x.png";
-import triviaImg from "./images/trivia.png";
+import triviaImg from "./images/trivia2.png";
 import udemyImg from "./images/udemy.png";
 
 const Portfolio = () => {
@@ -42,14 +42,22 @@ const Portfolio = () => {
           <img alt="project" src={moviesX} />
           <figcaption>
             <div>
-              <a href="https://fdcoder81.github.io/movies-x/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://fdcoder81.github.io/movies-x/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
               </a>
             </div>
             <div>
-              <a href="https://github.com/fdcoder81/movies-x" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/fdcoder81/movies-x"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>
@@ -64,7 +72,8 @@ const Portfolio = () => {
             <div>
               <a
                 href="https://fdcoder81.github.io/udemy-clone/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-eye">
                   <span>Project</span>
@@ -73,7 +82,8 @@ const Portfolio = () => {
             </div>
             <div>
               <a
-                href="https://github.com/fdcoder81/udemy-clone" rel="noopener noreferrer"
+                href="https://github.com/fdcoder81/udemy-clone"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fab fa-github">
@@ -88,7 +98,11 @@ const Portfolio = () => {
           <img alt="project" src={triviaImg} />
           <figcaption>
             <div>
-              <a href="https://fdcoder81.github.io/trivia-game" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://fdcoder81.github.io/trivia-react/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-eye">
                   <span>Project</span>
                 </i>
@@ -96,8 +110,9 @@ const Portfolio = () => {
             </div>
             <div>
               <a
-                href="https://github.com/fdcoder81/trivia-game"
-                target="_blank" rel="noopener noreferrer"
+                href="https://github.com/fdcoder81/trivia-react"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-github">
                   <span>GitHub</span>
@@ -113,7 +128,8 @@ const Portfolio = () => {
             <div>
               <a
                 href="https://fdcoder81.github.io/portfolio2019/"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-eye">
                   <span>Project</span>
@@ -123,7 +139,8 @@ const Portfolio = () => {
             <div>
               <a
                 href="https://github.com/fdcoder81/portfolio2019"
-                target="_blank" rel="noopener noreferrer"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-github">
                   <span>GitHub</span>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.scss";
 import bioImg from "./images/bio.jpg";
+import { NavLink } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -21,7 +22,20 @@ const Main = () => {
           <li>GIT</li>
           <li>Github</li>
         </ul>
+
+        <NavLink to="/portfolio">
+          <div class="button-div">
+            <button
+              class="button-projects"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              Check out my projects
+            </button>
+          </div>
+        </NavLink>
       </div>
+
       <div id="about-me">
         <img alt="profile" src={bioImg} />
         <h2>About Me</h2>
