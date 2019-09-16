@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio2019/static/css/main.a07d6aca.chunk.css",
-    "main.js": "/portfolio2019/static/js/main.17b77737.chunk.js",
-    "main.js.map": "/portfolio2019/static/js/main.17b77737.chunk.js.map",
+    "main.css": "/portfolio2019/static/css/main.ab59b2aa.chunk.css",
+    "main.js": "/portfolio2019/static/js/main.47eba1ef.chunk.js",
+    "main.js.map": "/portfolio2019/static/js/main.47eba1ef.chunk.js.map",
     "runtime~main.js": "/portfolio2019/static/js/runtime~main.8abb7632.js",
     "runtime~main.js.map": "/portfolio2019/static/js/runtime~main.8abb7632.js.map",
     "static/js/2.35f64330.chunk.js": "/portfolio2019/static/js/2.35f64330.chunk.js",
     "static/js/2.35f64330.chunk.js.map": "/portfolio2019/static/js/2.35f64330.chunk.js.map",
     "index.html": "/portfolio2019/index.html",
-    "precache-manifest.b833d4df449024248927712783044759.js": "/portfolio2019/precache-manifest.b833d4df449024248927712783044759.js",
+    "precache-manifest.78c2944fb07a7c5cd69630cf11532cfc.js": "/portfolio2019/precache-manifest.78c2944fb07a7c5cd69630cf11532cfc.js",
     "service-worker.js": "/portfolio2019/service-worker.js",
-    "static/css/main.a07d6aca.chunk.css.map": "/portfolio2019/static/css/main.a07d6aca.chunk.css.map",
+    "static/css/main.ab59b2aa.chunk.css.map": "/portfolio2019/static/css/main.ab59b2aa.chunk.css.map",
     "static/media/App.scss": "/portfolio2019/static/media/background.bee36bb7.jpg",
     "static/media/bio.jpg": "/portfolio2019/static/media/bio.072102c3.jpg",
     "static/media/movies-x.png": "/portfolio2019/static/media/movies-x.4a06041d.png",
     "static/media/portfolio.png": "/portfolio2019/static/media/portfolio.9547d3f9.png",
-    "static/media/trivia.png": "/portfolio2019/static/media/trivia.dccf56f6.png",
+    "static/media/trivia2.png": "/portfolio2019/static/media/trivia2.d5a74b09.png",
     "static/media/udemy.png": "/portfolio2019/static/media/udemy.bf021aa9.png",
     "static/media/weather-app.png": "/portfolio2019/static/media/weather-app.79f822b8.png"
   }

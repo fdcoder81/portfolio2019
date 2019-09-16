@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "810b2a807c78b101b593d8dcde4f95b2",
+    "revision": "00c30e65300ad2cbff758af9dbce8cc6",
     "url": "/portfolio2019/index.html"
   },
   {
-    "revision": "227b897c8bbc61ac64cf",
-    "url": "/portfolio2019/static/css/main.a07d6aca.chunk.css"
+    "revision": "22d5375ce649f7567e93",
+    "url": "/portfolio2019/static/css/main.ab59b2aa.chunk.css"
   },
   {
     "revision": "91be5a23204fcbd1ed3e",
     "url": "/portfolio2019/static/js/2.35f64330.chunk.js"
   },
   {
-    "revision": "227b897c8bbc61ac64cf",
-    "url": "/portfolio2019/static/js/main.17b77737.chunk.js"
+    "revision": "22d5375ce649f7567e93",
+    "url": "/portfolio2019/static/js/main.47eba1ef.chunk.js"
   },
   {
     "revision": "1b8f21f30d9826a2fafe",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2019/static/media/portfolio.9547d3f9.png"
   },
   {
-    "revision": "dccf56f611289827f368c7057189b37e",
-    "url": "/portfolio2019/static/media/trivia.dccf56f6.png"
+    "revision": "d5a74b0979bc4fc91d2f4a3557ea6aa6",
+    "url": "/portfolio2019/static/media/trivia2.d5a74b09.png"
   },
   {
     "revision": "bf021aa9e0ee80da1bd74c56ee4d1b9a",
