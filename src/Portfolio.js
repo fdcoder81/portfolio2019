@@ -5,6 +5,7 @@ import portfolioImg from "./images/portfolio.png";
 import moviesX from "./images/movies-x.png";
 import triviaImg from "./images/trivia2.png";
 import udemyImg from "./images/udemy.png";
+import trailerImg from "./images/trailer_flix.png";
 
 const Portfolio = () => {
   return (
@@ -61,6 +62,34 @@ const Portfolio = () => {
                 <i className="fab fa-github">
                   <span>GitHub</span>
                 </i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure className="projects_item">
+          <img alt="project" src={trailerImg} />
+          <figcaption>
+            <div>
+              <a
+                href="https://fdcoder81.github.io/trailer-flix/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-eye">
+                  <span>Project</span>
+                </i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/fdcoder81/trailer-flix"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github">
+                  <span>GitHub</span>
+                </i>{" "}
               </a>
             </div>
           </figcaption>
