@@ -15,7 +15,7 @@ const Main = () => {
         <ul>
           <li>HTML5</li>
           <li>CSS3</li>
-          <li>SASS (SCSS)</li>
+          <li>SASS</li>
           <li>JavaScript</li>
           <li>React.js</li>
           <li>Responsive web design</li>
