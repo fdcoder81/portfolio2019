@@ -11,6 +11,20 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <h2>My Work</h2>
+
+      <div className="youtube-container">
+        <h3>React Tutorial - Todo App</h3>
+        <iframe
+          title="Todo App Tutorial"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VhdDmSWyWKI"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <div className="projects">
         <figure>
           <img alt="project" src={weatherImg} />

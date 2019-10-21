@@ -1,6 +1,18 @@
 #portfolio {
   padding: 4rem;
 
+  h3 {
+    font-size: 1.8rem;
+    color: #f39c12;
+  }
+
+  .youtube-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
+  }
+
   h2 {
     text-align: center;
     margin-bottom: 4rem;
