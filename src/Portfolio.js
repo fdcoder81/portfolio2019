@@ -6,23 +6,42 @@ import moviesX from "./images/movies-x.png";
 import triviaImg from "./images/trivia2.png";
 import udemyImg from "./images/udemy.png";
 import trailerImg from "./images/trailer_flix.png";
+import ecommerce from "./images/ecommerce.jpg";
 
 const Portfolio = () => {
   return (
     <div id="portfolio">
       <h2>My Work</h2>
 
-      <div className="youtube-container">
-        <h3>React Tutorial - Todo App</h3>
-        <iframe
-          title="Todo App Tutorial"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/VhdDmSWyWKI"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+      <div className="projects">
+        <figure>
+          <p className="title">E-Commerce Project (in progress)</p>
+          <img alt="project" src={ecommerce} />
+          <figcaption>
+            <div>
+              <a
+                href="https://fdcoder81.github.io/clothing-shop/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-eye">
+                  <span>Project</span>
+                </i>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/fdcoder81/clothing-shop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github">
+                  <span>GitHub</span>
+                </i>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
       </div>
 
       <div className="projects">
