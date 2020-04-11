@@ -15,7 +15,7 @@ const Portfolio = () => {
 
       <div className="projects">
         <figure>
-          <p className="title">E-Commerce Project (in progress)</p>
+          <p className="title">E-Commerce Project</p>
           <img alt="project" src={ecommerce} />
           <figcaption>
             <div>
